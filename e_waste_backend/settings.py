@@ -37,7 +37,7 @@ DEBUG = os.getenv('DEBUG', 'True') == 'True'
 
 
 # SECURITY WARNING: Allow localhost for API testing
-ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '127.0.0.1,localhost', 'e-waste-2-cdyo.onrender.com').split(',')
+ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '127.0.0.1,localhost', 'e-waste-3-cdyo.onrender.com').split(',')
 
 
 # Allow API access for development (Not for production)
