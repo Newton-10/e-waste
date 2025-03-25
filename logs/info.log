@@ -32,3 +32,6 @@ INFO 2025-03-25 22:02:38,710 basehttp 17196 14612 "GET /static/rest_framework/js
 INFO 2025-03-25 22:02:38,712 basehttp 17196 5680 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
 WARNING 2025-03-25 22:02:38,772 log 17196 5680 Not Found: /favicon.ico
 WARNING 2025-03-25 22:02:38,773 basehttp 17196 5680 "GET /favicon.ico HTTP/1.1" 404 3207
+INFO 2025-03-25 23:37:36,399 autoreload 17196 10644 C:\Users\anshu\OneDrive\Desktop\Django\e_waste_backend\e_waste_backend\settings.py changed, reloading.
+INFO 2025-03-25 23:37:36,994 autoreload 15132 26132 Watching for file changes with StatReloader
+INFO 2025-03-25 23:37:42,281 autoreload 15132 26132 C:\Users\anshu\OneDrive\Desktop\Django\e_waste_backend\e_waste_backend\settings.py changed, reloading.
