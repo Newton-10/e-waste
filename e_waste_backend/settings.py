@@ -34,10 +34,10 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-5_$c085c@gi%2e6%n47&_v6=j+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG', 'True') == 'True'
 
-ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '127.0.0.1,localhost').split(',')
+
 
 # SECURITY WARNING: Allow localhost for API testing
-ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '127.0.0.1,localhost').split(',')
+ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '127.0.0.1,localhost', 'e-waste-2-cdyo.onrender.com').split(',')
 
 
 # Allow API access for development (Not for production)
